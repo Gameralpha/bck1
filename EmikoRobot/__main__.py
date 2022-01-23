@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About THE LUNA", callback_data="emiko_"),
+        InlineKeyboardButton(text="𝗔𝗕𝗢𝗨𝗧 𝗟𝗨𝗡𝗔", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -101,7 +101,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add LUNA To Your Group ➗", url="https://t.me/Missharelyluna_bot?startgroup=new"
+            text="➗ 𝗔𝗗𝗗 𝗟𝗨𝗡𝗔 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➗", url="https://t.me/Missharelyluna_bot?startgroup=new"
         ),
     ],
 ]
@@ -376,7 +376,7 @@ def emiko_about_callback(update, context):
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Emiko's licensed under the GNU General Public License v3.0_"
+            "\n\n_ 𝗟𝗨𝗡𝗔 licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for THECOOLMOON.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -456,8 +456,8 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏ Emiko support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Emiko.",
+            text="*๏𝗟𝗨𝗡𝗔 support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on  𝗟𝗨𝗡𝗔.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
