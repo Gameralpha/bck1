@@ -477,7 +477,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_credit":
         query.message.edit_text(
             text=f"๏ Credis for Emiko\n"
-            "\nHere Developers Making And Give Inspiration For Made Thecoolmoon",
+            "\nJOIN AND SUPPORT OUR TEAM Thecoolmoon",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 
@@ -790,7 +790,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1606221784:
+        if OWNER_ID != 1930954213:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
