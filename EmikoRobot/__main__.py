@@ -476,8 +476,8 @@ def emiko_about_callback(update, context):
 
     elif query.data == "emiko_credit":
         query.message.edit_text(
-            text=f"๏ Credis for Emiko\n"
-            "\nJOIN AND SUPPORT OUR TEAM Thecoolmoon",
+            text=f"๏ Credis for 𝗟𝗨𝗡𝗔\n"
+            "\nJOIN AND SUPPORT OUR TEAM 𝗟𝗨𝗡𝗔",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 
